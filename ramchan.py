@@ -121,4 +121,4 @@ async def set(ctx, type, channel=None):
 		await ctx.send('Unknown channel type')
 
 
-ram.run('ODExMDU4NTUyMDkyNDkxODE4.YCsrIw.aOM3J_BF2XD6lKegVxdP4XJJJYc')
+ram.run('token')
