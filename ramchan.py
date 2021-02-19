@@ -15,6 +15,7 @@ channels = []
 
 async def NewsLoop():
 	llist = newscmd.news_links()
+	print(llist)
 	if llist:
 		for i in llist:
 			title, content, img_link, news_link= newscmd.news_link_parser(i)
@@ -121,4 +122,4 @@ async def set(ctx, type, channel=None):
 		await ctx.send('Unknown channel type')
 
 
-ram.run('token')
+ram.run('ODExMDU4NTUyMDkyNDkxODE4.YCsrIw.SWQGeaY9RwjFqCvueeRshOh6mQ0')
