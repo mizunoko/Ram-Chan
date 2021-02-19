@@ -43,6 +43,7 @@ async def NewsLoop():
 @ram.event
 async def on_ready():
 	print('Konnichiwa Nee sama!')
+	await ram.change_presence(activity=discord.Game(game))
 	await NewsLoop()
 
 
